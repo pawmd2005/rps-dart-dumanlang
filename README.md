@@ -4,7 +4,7 @@
 Pauline Mhae L. Dumanlang
 
 ## Section
-BSIT 3A
+BSIT 3A ILFV3
 
 ## Description
 This is a game of Two-Player Rock, Paper, Scissors game created using Dart.
