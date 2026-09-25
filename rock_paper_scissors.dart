@@ -1,6 +1,6 @@
 import 'dart:io';
 
-/// Gets the player's name. If no name is entered, it uses the default name.
+/// This will get the player's name. If no name is entered, it uses the default name.
 String getPlayerName(String defaultName) {
   stdout.write('Enter $defaultName name: ');
   String? userInput = stdin.readLineSync();
@@ -24,7 +24,7 @@ String? validateMove(String userMove) {
   return null;
 }
 
-/// Keeps asking until the player enters a valid move.
+/// This will keep asking until the player enters a valid move.
 String getMove(String playerName) {
   while (true) {
     stdout.write('$playerName, enter your move (rock/paper/scissors): ');
@@ -39,7 +39,7 @@ String getMove(String playerName) {
   }
 }
 
-/// Decides who wins the round. Returns null if both players choose the same move.
+/// This will decide who wins the round. Returns null if both players choose the same move.
 String? decideWinner(
   String firstMove,
   String secondMove,
@@ -60,7 +60,7 @@ String? decideWinner(
   return null;
 }
 
-/// Starts and runs the Rock, Paper, Scissors game.
+/// This is where it starts and runs the Rock, Paper, Scissors game.
 void main() {
   print('===== ROCK, PAPER, SCISSORS =====');
 
